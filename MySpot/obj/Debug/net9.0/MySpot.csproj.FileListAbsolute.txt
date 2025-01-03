@@ -25,10 +25,10 @@ C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\staticwebassets\msbu
 C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.MySpot.props
 C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.MySpot.props
 C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\MySpot.csproj.Up2Date
 C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\MySpot.dll
 C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\refint\MySpot.dll
 C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\MySpot.pdb
 C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\MySpot.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\ref\MySpot.dll
+C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\MySpot.sourcelink.json

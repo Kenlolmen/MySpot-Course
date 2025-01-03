@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|c:\\users\\lenovo\\source\\repos\\myspot\\myspot\\myspot.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|solutionrelative:myspot\\myspot.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|c:\\users\\lenovo\\source\\repos\\myspot\\myspot\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|solutionrelative:myspot\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -23,25 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MySpot.http",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\MySpot.http",
+              "RelativeDocumentMoniker": "MySpot\\MySpot.http",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\MySpot.http",
+              "RelativeToolTip": "MySpot\\MySpot.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-01-03T12:40:25.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MySpot\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\Properties\\launchSettings.json*",
-              "RelativeToolTip": "MySpot\\Properties\\launchSettings.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MySpot\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-12-28T14:04:43.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\Program.cs",
               "RelativeDocumentMoniker": "MySpot\\Program.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\Program.cs",
               "RelativeToolTip": "MySpot\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T13:56:15.537Z",
               "EditorCaption": ""
