@@ -32,3 +32,4 @@ C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\MySpot.pdb
 C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\MySpot.genruntimeconfig.cache
 C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\ref\MySpot.dll
 C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\MySpot.sourcelink.json
+C:\Users\Lenovo\source\repos\MySpot\MySpot\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
