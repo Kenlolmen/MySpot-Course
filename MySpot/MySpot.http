@@ -1,4 +1,5 @@
 @url = http://localhost:5000
+@reservationID = 1
 
 # GET {{MySpot_HostAddress}}/weatherforecast/
 # Accept: application/json
@@ -8,16 +9,27 @@
 GET {{url}}
 
 ###
-GET {{url}}/reservations
+GET {{url}}/reservations //wyswietlamy
 
 ###
-POST {{url}}/reservations
+GET {{url}}/reservations/{{reservationID}}
+###
+POST {{url}}/reservations //dodajemy
 Content-Type: application/json
 {
-  "employeeName" : "John Doe",
-  "parkingSpotName": "P1",
-  "LicensePlate": "ZK2343",
+
+  "EmployeeName" : "John Doe",
+  "ParkingSpotName": "P1",
+  "LicensePlate": "ZK2343"
 }
 
 ###
-PUT {{url}}/reservations
+PUT {{url}}/reservations/{{reservationID}} //zmieniamy blachy
+Content-Type: application/json
+
+{
+  "LicensePlate": "ZK7777"
+}
+
+###
+DELETE {{url}}/reservations/{{reservationID}} // usuwamy
