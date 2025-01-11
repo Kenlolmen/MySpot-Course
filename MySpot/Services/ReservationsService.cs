@@ -1,4 +1,4 @@
-﻿using MySpot.Models;
+﻿using MySpot.Entities;
 
 namespace MySpot.Services
 {
@@ -24,11 +24,20 @@ namespace MySpot.Services
 
         public int? Create(Reservation reservation)
         {
+            var now = DateTime.UtcNow.Date;
+            var pastDays = now.DayOfWeek is DayOfWeek.Sunday ? 7 : (int) now.DayOfWeek;
+            var remainingDays = 7 - pastDays;
+
+
             if (_parkingSpotNames.All(x => x != reservation.ParkingSpotName))
             {
                 return default;
             }
-            reservation.Date = DateTime.UtcNow.AddDays(1).Date;
+
+            if(!(reservation.Date.Date >= now && reservation.Date.Date <= now.AddDays(remainingDays)))
+            {
+                return default;
+            }
 
             var reservationAlreadyExists = _reservations.Any(x =>
                  x.ParkingSpotName == reservation.ParkingSpotName &&
