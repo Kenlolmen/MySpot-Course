@@ -1,4 +1,7 @@
-﻿namespace MySpot.Entities
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
+using MySpot.Exceptions;
+
+namespace MySpot.Entities
 {
     public class Reservation
     {
@@ -20,7 +23,7 @@
         {
             if(string.IsNullOrWhiteSpace(licenseplate))
             {
-                throw 
+                throw new EmptyLicensePlateException();
             }
         }
     }
