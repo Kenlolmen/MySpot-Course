@@ -5,15 +5,17 @@ namespace MySpot.Entities
 {
     public class Reservation
     {
-        public int ID { get; set; }
+        public Guid Id { get; set; }
+        public Guid ParkingSpotId { get; set; }
         public string EmployeeName { get; private set; } = string.Empty;
         public string LicensePlate { get; private set; } = string.Empty;
         public DateTime Date { get; private set; }
 
 
-        public Reservation(int id, string employeename, string licenseplate, DateTime date)
+        public Reservation(Guid id, Guid parkingSpotId, string employeename, string licenseplate, DateTime date)
         {
-            ID = id;
+            Id = id;
+            parkingSpotId = ParkingSpotId;
             EmployeeName = employeename;
             LicensePlate = licenseplate;
             Date = date;

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MySpot.Entities;
 using MySpot.Services;
+using MySpot.Commands;
 
 namespace MySpot.Controllers
 {
@@ -14,8 +15,8 @@ namespace MySpot.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Reservation>> Get() => Ok(_service.GetAll());
 
-        [HttpGet("{id:int}")]
-        public ActionResult<Reservation> Get(int id)
+        [HttpGet("{id:Guid}")]
+        public ActionResult<Reservation> Get(Guid id)
         {
             var reservation = _service.Get(id);
             if (reservation == null)
@@ -26,9 +27,9 @@ namespace MySpot.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post(Reservation reservation)
+        public ActionResult Post(CreateReservation command)
         {
-            var id = _service.Create(reservation);
+            var id = _service.Create(command with {ReservationId = Guid.NewGuid()});
             if(id == null)
             {
                 return BadRequest();
@@ -36,7 +37,7 @@ namespace MySpot.Controllers
             return CreatedAtAction(nameof(Get), new { id }, null);
         }
 
-        [HttpPut("{id:int}")]
+        [HttpPut("{id:Guid}")]
         public ActionResult Put(int id, Reservation reservation)
         {
             var updated = _service.Update(id, reservation);
@@ -47,8 +48,8 @@ namespace MySpot.Controllers
             return NoContent();
         }
 
-        [HttpDelete("{id:int}")]
-        public ActionResult Delete(int id)
+        [HttpDelete("{id:Guid}")]
+        public ActionResult Delete(Guid id)
         {
             var deleted = _service.Delete(id);
             if (deleted == false)
