@@ -1,6 +1,6 @@
 ﻿namespace MySpot.Exceptions
 {
-    public class InvalidReservationDateException : CustomException
+    public sealed class InvalidReservationDateException : CustomException
     {
         public DateTime Date { get; }
         public InvalidReservationDateException(DateTime date)
@@ -13,7 +13,7 @@
     }
 
 
-    public class ParkingSpotAlreadyReservedException : CustomException
+    public sealed class ParkingSpotAlreadyReservedException : CustomException
     {
         public string Name { get; }
         public DateTime Date { get; }
@@ -26,4 +26,5 @@
 
 
     }
+
 }

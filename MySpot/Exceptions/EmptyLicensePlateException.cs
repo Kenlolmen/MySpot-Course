@@ -2,6 +2,8 @@
 {
     public sealed class EmptyLicensePlateException : CustomException
     {
-        public EmptyLicensePlateException() : base("License plate is empty") { }
+        public EmptyLicensePlateException() 
+            : base("License plate is empty") { }
     }
+
 }

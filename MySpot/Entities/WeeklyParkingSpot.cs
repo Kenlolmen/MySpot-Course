@@ -1,9 +1,11 @@
 ﻿using MySpot.Exceptions;
+using MySpot.Services;
 
 namespace MySpot.Entities
 {
     public class WeeklyParkingSpot
     {
+        private static Clock _clock = new();
         private readonly HashSet<Reservation> _reservations = new();
 
         public Guid Id { get; }
@@ -24,7 +26,7 @@ namespace MySpot.Entities
 
         public void AddReservation(Reservation reservation)
         {
-            var now = DateTime.UtcNow.Date;
+            var now = _clock.Current.Date;
             var isInvalidDate = reservation.Date.Date < From 
                                || reservation.Date.Date > To 
                                || reservation.Date.Date < now.Date;
@@ -45,5 +47,8 @@ namespace MySpot.Entities
 
             _reservations.Add(reservation);
         }
+
+        public void RemoveReservation(Guid reservationId)
+            => _reservations.RemoveWhere(x => x.Id == reservationId);
     }
 }

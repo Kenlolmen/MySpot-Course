@@ -5,15 +5,16 @@ using MySpot.Commands;
 namespace MySpot.Services
 {
     public class ReservationsService
-    {         
+    {
+        private static Clock _clock = new();
 
         private static readonly List<WeeklyParkingSpot> weeklyParkingSpots = new()
         {
-            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000001"), DateTime.UtcNow, DateTime.UtcNow.AddDays(7),"P1"),
-            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000002"), DateTime.UtcNow, DateTime.UtcNow.AddDays(7),"P2"),
-            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000003"), DateTime.UtcNow, DateTime.UtcNow.AddDays(7),"P3"),
-            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000004"), DateTime.UtcNow, DateTime.UtcNow.AddDays(7),"P4"),
-            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000005"), DateTime.UtcNow, DateTime.UtcNow.AddDays(7),"P5")
+            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000001"), _clock.Current, _clock.Current.AddDays(7),"P1"),
+            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000002"), _clock.Current, _clock.Current.AddDays(7),"P2"),
+            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000003"), _clock.Current, _clock.Current.AddDays(7),"P3"),
+            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000004"), _clock.Current, _clock.Current.AddDays(7),"P4"),
+            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000005"), _clock.Current, _clock.Current.AddDays(7),"P5")
         };
 
         private WeeklyParkingSpot GetWeeklyParkingSpotByReservation(Guid reservationId)
@@ -65,7 +66,7 @@ namespace MySpot.Services
                 return false;
             }
 
-            if(existingReservation.Date <= DateTime.UtcNow)
+            if(existingReservation.Date <= _clock.Current)
             {
                 return false;
             }
