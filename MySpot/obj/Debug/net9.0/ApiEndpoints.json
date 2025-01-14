@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[MySpot.Entities.Reservation, MySpot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MySpot.DTO.ReservationDto, MySpot, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,8 +28,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "reservation",
-        "Type": "MySpot.Entities.Reservation",
+        "Name": "command",
+        "Type": "MySpot.Commands.CreateReservation",
         "IsRequired": true
       }
     ],
@@ -45,7 +45,7 @@
     "Parameters": [
       {
         "Name": "id",
-        "Type": "System.Int32",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
@@ -70,13 +70,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "command",
+        "Type": "MySpot.Commands.ChangeReservationLicensePlate",
         "IsRequired": true
       },
       {
-        "Name": "reservation",
-        "Type": "MySpot.Entities.Reservation",
+        "Name": "id",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -91,8 +91,13 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "command",
+        "Type": "MySpot.Commands.DeleteReservation",
+        "IsRequired": true
+      },
+      {
         "Name": "id",
-        "Type": "System.Int32",
+        "Type": "",
         "IsRequired": true
       }
     ],

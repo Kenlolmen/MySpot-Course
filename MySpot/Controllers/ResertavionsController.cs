@@ -2,6 +2,7 @@
 using MySpot.Entities;
 using MySpot.Services;
 using MySpot.Commands;
+using MySpot.DTO;
 
 namespace MySpot.Controllers
 {
@@ -13,7 +14,7 @@ namespace MySpot.Controllers
 
 
         [HttpGet]
-        public ActionResult<IEnumerable<Reservation>> Get() => Ok(_service.GetAll());
+        public ActionResult<IEnumerable<ReservationDto>> Get() => Ok(_service.GetAllWeekly());
 
         [HttpGet("{id:Guid}")]
         public ActionResult<Reservation> Get(Guid id)
@@ -38,9 +39,9 @@ namespace MySpot.Controllers
         }
 
         [HttpPut("{id:Guid}")]
-        public ActionResult Put(int id, Reservation reservation)
+        public ActionResult Put(ChangeReservationLicensePlate command)
         {
-            var updated = _service.Update(id, reservation);
+            var updated = _service.Update(command);
             if(updated == false)
             {
                 return NotFound();
@@ -49,9 +50,9 @@ namespace MySpot.Controllers
         }
 
         [HttpDelete("{id:Guid}")]
-        public ActionResult Delete(Guid id)
+        public ActionResult Delete(DeleteReservation command)
         {
-            var deleted = _service.Delete(id);
+            var deleted = _service.Delete(command);
             if (deleted == false)
             {
                 return NotFound();
