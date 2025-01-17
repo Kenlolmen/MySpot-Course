@@ -1,10 +1,12 @@
-﻿namespace MySpot.DTO
+﻿using MySpot.ValueObjects;
+
+namespace MySpot.DTO
 {
     public class ReservationDto
     {
         public Guid Id { get; set; }
-        public Guid ParkingSpotId { get; set; }
-        public string EmployeeName { get; set; }
+        public ParkingSpotId ParkingSpotId { get; set; }
+        public EmployeeName EmployeeName { get; set; }
         public DateTime Date { get; set; }
     }
 
