@@ -1,20 +1,25 @@
 ﻿using MySpot.Entities;
 using MySpot.DTO;
 using MySpot.Commands;
+using MySpot.ValueObjects;
 
 namespace MySpot.Services
 {
     public class ReservationsService
     {
         private static Clock _clock = new();
+        private static readonly DateTimeOffset currentDate;
+
+
+        private static Week currentWeek = new Week(currentDate);
 
         private static readonly List<WeeklyParkingSpot> weeklyParkingSpots = new()
         {
-            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000001"), _clock.Current, _clock.Current.AddDays(7),"P1"),
-            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000002"), _clock.Current, _clock.Current.AddDays(7),"P2"),
-            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000003"), _clock.Current, _clock.Current.AddDays(7),"P3"),
-            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000004"), _clock.Current, _clock.Current.AddDays(7),"P4"),
-            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000005"), _clock.Current, _clock.Current.AddDays(7),"P5")
+            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000001"), currentWeek,"P1"),
+            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000002"), currentWeek,"P2"),
+            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000003"), currentWeek,"P3"),
+            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000004"), currentWeek,"P4"),
+            new WeeklyParkingSpot(Guid.Parse("00000000-0000-0000-000000000005"), currentWeek,"P5")
         };
 
         private WeeklyParkingSpot GetWeeklyParkingSpotByReservation(Guid reservationId)
@@ -47,7 +52,7 @@ namespace MySpot.Services
             }
 
             var reservation = new Reservation(command.ReservationId, command.ParkingSpotId, command.EmployeeName, command.LicensePlate, command.date);
-            weeklyparkingspot.AddReservation(reservation);
+            weeklyparkingspot.AddReservation(reservation, command.date.Value);
 
             return reservation.Id;
         }

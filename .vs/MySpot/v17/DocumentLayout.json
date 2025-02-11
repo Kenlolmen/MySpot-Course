@@ -3,24 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|c:\\users\\lenovo\\source\\repos\\myspot\\myspot\\valueobjects\\reservationid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|solutionrelative:myspot\\valueobjects\\reservationid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7605A79A-FA54-40D6-AA29-BDCCD243B57A}|MySpot.Tests.Unit\\MySpot.Tests.Unit.csproj|c:\\users\\lenovo\\source\\repos\\myspot\\myspot.tests.unit\\entities\\weeklyparkingspottests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7605A79A-FA54-40D6-AA29-BDCCD243B57A}|MySpot.Tests.Unit\\MySpot.Tests.Unit.csproj|solutionrelative:myspot.tests.unit\\entities\\weeklyparkingspottests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|c:\\users\\lenovo\\source\\repos\\myspot\\myspot\\dto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|solutionrelative:myspot\\dto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|c:\\users\\lenovo\\source\\repos\\myspot\\myspot\\valueobjects\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|solutionrelative:myspot\\valueobjects\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|c:\\users\\lenovo\\source\\repos\\myspot\\myspot\\entities\\weeklyparkingspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|solutionrelative:myspot\\entities\\weeklyparkingspot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|c:\\users\\lenovo\\source\\repos\\myspot\\myspot\\services\\reservationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|solutionrelative:myspot\\services\\reservationsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|c:\\users\\lenovo\\source\\repos\\myspot\\myspot\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|solutionrelative:myspot\\entities\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|c:\\users\\lenovo\\source\\repos\\myspot\\myspot\\valueobjects\\employeename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|solutionrelative:myspot\\valueobjects\\employeename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|c:\\users\\lenovo\\source\\repos\\myspot\\myspot\\commands\\createreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|solutionrelative:myspot\\commands\\createreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|c:\\users\\lenovo\\source\\repos\\myspot\\myspot\\dto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|solutionrelative:myspot\\dto\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|c:\\users\\lenovo\\source\\repos\\myspot\\myspot\\valueobjects\\week.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|solutionrelative:myspot\\valueobjects\\week.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|c:\\users\\lenovo\\source\\repos\\myspot\\myspot\\valueobjects\\reservationid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|solutionrelative:myspot\\valueobjects\\reservationid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|c:\\users\\lenovo\\source\\repos\\myspot\\myspot\\valueobjects\\parkingspotname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|solutionrelative:myspot\\valueobjects\\parkingspotname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|c:\\users\\lenovo\\source\\repos\\myspot\\myspot\\valueobjects\\employeename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49AC3B73-7149-4464-889C-38B83A095E85}|MySpot\\MySpot.csproj|solutionrelative:myspot\\valueobjects\\employeename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +54,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateReservation.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\Commands\\CreateReservation.cs",
+              "RelativeDocumentMoniker": "MySpot\\Commands\\CreateReservation.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\Commands\\CreateReservation.cs",
+              "RelativeToolTip": "MySpot\\Commands\\CreateReservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T10:33:28.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Date.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\ValueObjects\\Date.cs",
+              "RelativeDocumentMoniker": "MySpot\\ValueObjects\\Date.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\ValueObjects\\Date.cs",
+              "RelativeToolTip": "MySpot\\ValueObjects\\Date.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-11T09:42:13.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservationsService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\Services\\ReservationsService.cs",
+              "RelativeDocumentMoniker": "MySpot\\Services\\ReservationsService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\Services\\ReservationsService.cs",
+              "RelativeToolTip": "MySpot\\Services\\ReservationsService.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T22:01:21.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Week.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\ValueObjects\\Week.cs",
+              "RelativeDocumentMoniker": "MySpot\\ValueObjects\\Week.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\ValueObjects\\Week.cs",
+              "RelativeToolTip": "MySpot\\ValueObjects\\Week.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T21:58:57.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeeklyParkingSpot.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\Entities\\WeeklyParkingSpot.cs",
+              "RelativeDocumentMoniker": "MySpot\\Entities\\WeeklyParkingSpot.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\Entities\\WeeklyParkingSpot.cs",
+              "RelativeToolTip": "MySpot\\Entities\\WeeklyParkingSpot.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T21:50:32.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeeklyParkingSpotTests.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot.Tests.Unit\\Entities\\WeeklyParkingSpotTests.cs",
+              "RelativeDocumentMoniker": "MySpot.Tests.Unit\\Entities\\WeeklyParkingSpotTests.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot.Tests.Unit\\Entities\\WeeklyParkingSpotTests.cs",
+              "RelativeToolTip": "MySpot.Tests.Unit\\Entities\\WeeklyParkingSpotTests.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T21:49:53.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ReservationDto.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\DTO\\ReservationDto.cs",
               "RelativeDocumentMoniker": "MySpot\\DTO\\ReservationDto.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\DTO\\ReservationDto.cs",
               "RelativeToolTip": "MySpot\\DTO\\ReservationDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T20:56:24.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "EmployeeName.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\ValueObjects\\EmployeeName.cs",
               "RelativeDocumentMoniker": "MySpot\\ValueObjects\\EmployeeName.cs",
@@ -60,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "ParkingSpotName.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\ValueObjects\\ParkingSpotName.cs",
               "RelativeDocumentMoniker": "MySpot\\ValueObjects\\ParkingSpotName.cs",
@@ -73,26 +175,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "ReservationId.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\ValueObjects\\ReservationId.cs",
               "RelativeDocumentMoniker": "MySpot\\ValueObjects\\ReservationId.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\ValueObjects\\ReservationId.cs",
               "RelativeToolTip": "MySpot\\ValueObjects\\ReservationId.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBQwAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T20:55:23.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\Entities\\Reservation.cs",
               "RelativeDocumentMoniker": "MySpot\\Entities\\Reservation.cs",
               "ToolTip": "C:\\Users\\Lenovo\\source\\repos\\MySpot\\MySpot\\Entities\\Reservation.cs",
               "RelativeToolTip": "MySpot\\Entities\\Reservation.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwAwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T20:54:19.458Z",
               "EditorCaption": ""

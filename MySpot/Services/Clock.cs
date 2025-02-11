@@ -1,8 +1,10 @@
-﻿namespace MySpot.Services
+﻿using MySpot.ValueObjects;
+
+namespace MySpot.Services
 {
     public class Clock
     {
-        public DateTime Current => DateTime.Now;
+        public Date Current => Date.Now;
 
     }
 }
